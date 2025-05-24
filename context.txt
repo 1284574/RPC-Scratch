@@ -1,0 +1,6 @@
+Remote Procedure Call (RPC) - allows for abstraction of calling another computer's procedure
+as if it were a local one with all of the transmission and communication taken care of
+Main job of RPC: take arguments, package them and send them to other computer.
+When it gets a response, it has to unpackage it and pass it back.
+
+The client and server will each have a stub implemented by RPC to communicate with each other over a network
